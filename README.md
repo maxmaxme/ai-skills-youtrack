@@ -18,26 +18,26 @@ This repository is compatible with [`skills`](https://www.npmjs.com/package/skil
 Install from GitHub:
 
 ```bash
-npx skills add maxmaxme/codex-skills-youtrack
+npx skills add maxmaxme/ai-skills-youtrack
 ```
 
 Install for specific agent(s):
 
 ```bash
-npx skills add maxmaxme/codex-skills-youtrack -a codex
-npx skills add maxmaxme/codex-skills-youtrack -a claude-code -a cursor
+npx skills add maxmaxme/ai-skills-youtrack -a codex
+npx skills add maxmaxme/ai-skills-youtrack -a claude-code -a cursor
 ```
 
 Install globally (available in all projects):
 
 ```bash
-npx skills add maxmaxme/codex-skills-youtrack -g
+npx skills add maxmaxme/ai-skills-youtrack -g
 ```
 
 Preview skill(s) before installing:
 
 ```bash
-npx skills add maxmaxme/codex-skills-youtrack --list
+npx skills add maxmaxme/ai-skills-youtrack --list
 ```
 
 After installation, restart your agent if it does not pick up newly installed skills automatically.
