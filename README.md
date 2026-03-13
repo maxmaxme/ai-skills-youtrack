@@ -8,7 +8,8 @@ Public agent skill for reading YouTrack issues and turning them into implementat
 
 - Fetches a single issue by key (`ABC-123`) from YouTrack API.
 - Fetches issue lists by YouTrack query.
-- Extracts key fields: `summary`, `description`, `customFields`, `links`, `subtasks`.
+- Fetches issue comments and extracts key discussion context.
+- Extracts key fields: `summary`, `description`, `customFields`, `links`, `subtasks`, `comments`.
 - Produces an actionable brief and can continue to implementation.
 
 ## Install with `skills` CLI

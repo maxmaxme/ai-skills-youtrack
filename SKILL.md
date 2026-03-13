@@ -48,11 +48,13 @@ Never echo tokens in command output.
 - `customFields`
 - `links`
 - `subtasks`
+- `comments` (author, text, timestamps)
 4. Produce a short structured brief before coding:
 - Goal
 - Problem statement
 - Constraints and scope
 - Acceptance criteria
+- Key discussion points from comments
 - Open questions
 - Implementation steps
 5. If the user asks to implement, proceed with code changes immediately.
@@ -70,4 +72,10 @@ Fetch list by query:
 
 ```bash
 ./scripts/fetch_issue.sh --query 'for: me #Unresolved'
+```
+
+Fetch issue comments only:
+
+```bash
+./scripts/fetch_issue.sh --comments ABC-123
 ```
